@@ -26,7 +26,7 @@ int main()
     int A[] = {7,5,1,4,5};
     int B[] = {1,4,5,7,5};
     int n = 5;
-    int k = 1;
+    int k = 2;
 
     cout << czy_k_podobne(n, A, B, k);
     cout << czy_podobne(n, A, B);
