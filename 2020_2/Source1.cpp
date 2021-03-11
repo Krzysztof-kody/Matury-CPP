@@ -1,9 +1,10 @@
 #include <iostream>
+using namespace std;
 
 void sym(int a, int b) {
 	if (a != 0) {
 		sym(a – 1, b + 1);
-		std::cout << a * b;
+		cout << a * b;
 		sym(a – 1, b + 1);
 	}
 }
